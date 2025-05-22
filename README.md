@@ -4,16 +4,32 @@
 ## Overview
 Crypto Fortune Wheel is a decentralized application (DApp) that implements a probabilistic fortune wheel game on the Ethereum blockchain. Users can spin the wheel for a chance to win different prize tiers, with the potential to win significant portions of the prize pool.
 
+## Directory
+/
+├─ index.html
+├─ FortuneWheel.sol
+├─ README.md
+├─ Contract_tester_intro.pdf
+└─ .nojekyll
+
+## How to execute the program
+1. cd into your project folder
+``cd .\comp4541``
+2. Launch a HTTP server on port 8000
+``python -m http.server 8000``
+3. Open in your browser
+``http://localhost:8000/index.html``
+
 ## Ethereum Testnet
 This project is deployed on the **Sepolia** testnet. Sepolia is an Ethereum testnet that allows for development and testing without using real ETH.
 
 ## Live Demo
-The application is deployed and available at: [https://hkustfun.github.io/comp4541](https://hkustfun.github.io/comp4541)
+The application is deployed and available at: [https://hkustfun.github.io/comp4541_project](https://hkustfun.github.io/comp4541_project)
 
 ## Smart Contract
-The project's smart contract address is: `0xYourContractAddressHere`
+The project's smart contract address is: `0xd9145CCE52D386f254917e481eB44e9943F39138`
 
-You can view the contract on Sepolia Etherscan: [https://sepolia.etherscan.io/address/0xYourContractAddressHere](https://sepolia.etherscan.io/address/0xYourContractAddressHere)
+You can view the contract on Sepolia Etherscan: [https://sepolia.etherscan.io/address/0xd9145CCE52D386f254917e481eB44e9943F39138](https://sepolia.etherscan.io/address/0xd9145CCE52D386f254917e481eB44e9943F39138)
 
 ## Features
 - Spin the wheel to win prizes in ETH
